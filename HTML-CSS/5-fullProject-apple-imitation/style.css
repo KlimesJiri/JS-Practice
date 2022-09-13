@@ -1,0 +1,115 @@
+html {
+	overflow-y: scroll;
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	overflow: hidden;
+	background: lightgrey;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	z-index: 1;
+}
+
+nav {
+	background: black;
+	opacity: 0.82;
+	padding: 10px;
+}
+
+nav ul {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+nav ul li {
+	list-style-type: none;
+	float: left;
+	width: 145px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	border-bottom: 2px solid white;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.firstPhoto {
+	background: black;
+}
+
+.firstPhoto img {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+}
+
+main h2 {
+	text-align: center;
+	margin-top: 100px;
+}
+main h2 span {
+	font-size: 55px;
+}
+
+.mainH2 {
+	font-size: 40px;
+}
+
+.section1 {
+	display: block;
+	margin: 0 auto;
+}
+
+.section1 img {
+	width: 300px;
+	display: block;
+	margin: 0 10px;
+	margin: 0 auto;
+	position: relative;
+	transform: rotate(20deg);
+}
+
+.section1 h2 {
+	font-size: 55px;
+	margin-top: 0;
+}
+
+.indexFooter {
+	background: lightgrey;
+	color: grey;
+	opacity: 0.8;
+	text-align: center;
+	position: absolute;
+    bottom: -450px;
+    width: 100%;
+}
+
+.macFooter {
+	background: lightgrey;
+	color: grey;
+	opacity: 0.8;
+	text-align: center;
+	position: absolute;
+    bottom: 0px;
+    width: 100%;
+}

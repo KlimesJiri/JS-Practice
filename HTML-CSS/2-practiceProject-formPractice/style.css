@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* 
+	Toto je CSS komentář :)
+*/
+
+.container {
+	width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+#idtest {
+	color: green;
+}
+
+.classtest {
+	color: blue;
+}	
+
+
+form {
+	margin-left: 10px;
+}
+
+input {
+	width: 800;
+	margin-top: 5px;
+}
+
+input[type="submit"] {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+

@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #214252;
+}
+
+.box {
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type="text"], .box input[type="email"], textarea{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #214252;
+    padding: 10px 5px;
+    width: 300px;
+    border-radius: 20px;
+    outline: none;
+    transition: 0.3s;
+    color: white;
+    font-size: 15px;
+}
+
+.box input::placeholder {
+    color: white;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.box input[type="text"]:focus, .box input[type="email"]:focus, .box textarea:focus{
+    width: 340px;
+    border-color: #f05454;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.box textarea{
+    resize: none;
+}
+
+textarea::placeholder{
+    color: white;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.box input[type="submit"] {
+    background: none;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid #f05151;
+    padding: 14px 40px;
+    width: 300px;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.15s;
+    font-size: 15px;
+}
+
+.box input[type="submit"]:hover {
+    width: 340px;
+    border-radius: 25px;
+    transition: 0.15s;
+}
+
+
+
+/* COPIED FROM INTERNET TO FIX WHEN AUTOCOMPLETING EMAILS ETC. WHICH CHANGES STYLES */
+
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #191919 inset !important;
+}
+
+/* Change text in autofill textbox */
+input:-webkit-autofill{
+    -webkit-text-fill-color: white !important;
+}

@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color: white;
+	background: red;
+	padding: 2px;
+	border-radius: 10px;
+}
+
+a:hover {
+	color: red;
+	background: white;
+}
+
+p {
+	width: 400px;
+	margin: 0 auto;
+}
+
+h1 {
+	position: static;
+	width: 500px;
+	margin: 0 auto;
+}
+
+
+h2 {
+	position: fixed;
+	left: 15px;
+}
+
+h3 {
+  position: sticky;
+  width: 250px;
+  left: 1300px;
+  top: 100px;
+  border: 2px solid #4CAF50;
+}
+
+h4 {
+	position: relative;
+	left: 1200px;
+	bottom: 25px;
+	width: 180px;
+}	
+
+h5 {
+	position: absolute;
+	top: 0px;
+	left: 1600px;
+	width: 200px;
+}
