@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(108, 255, 206);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.speedInput {
+    position: absolute;
+    bottom: 15%;
+    background: cyan;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+input {
+    width: 70px;
+    padding: 6px;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    margin-right: 10px;
+}

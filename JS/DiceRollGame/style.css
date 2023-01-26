@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+.allPage {
+    background: linear-gradient(#0d324d, #252627);
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.playground {
+    width: 80%;
+    height: 80%;
+    background-color: #dabdbd4b;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.totalScore {
+    font-size: 25px;
+    color: #fff9fb;
+    font-weight: bold;
+    text-align: center;
+}
+.totalScore p:nth-of-type(1){
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.totalScore p:nth-of-type(3){
+    padding-top: 5px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.totalScore1 {
+    position: absolute;
+    top: 15%;
+    left: 11%;
+}
+
+.totalScore2 {
+    position: absolute;
+    top: 15%;
+    right: 11%;
+    
+}
+
+/* CURRENT SCORE */
+
+.currentScore {
+    width: 150px;
+    height: 150px;
+    background-color: #4b88a2;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.currentScore p {
+    font-size: 20px;
+    color: #fff9fb;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+.currentScore p:nth-child(2){
+    font-size: 40px;
+}
+
+.currentScore1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.currentScore2 {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+/* MIDDLE TEXT */
+
+.middleText {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    text-align: center;
+
+}
+
+.btn {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 5px 0px;
+    padding: 10px 8px;
+    background-color: #4143ac;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    border: 2px solid #000000;
+    background-color: #7f5a83;
+}
+
+/* DICE */
+
+.dice {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+/* ACTIVE PLAYER */
+.active {
+    color: rgb(0, 255, 115);
+    border: 2px solid rgb(0, 255, 115);
+    border-radius: 20px;
+    padding: 10px;
+}
