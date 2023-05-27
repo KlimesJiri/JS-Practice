@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
